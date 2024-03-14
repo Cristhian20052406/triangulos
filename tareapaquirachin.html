@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Clase 01</title>
+    </head>
+    <body>
+        <script>
+            const triangulos = [
+                {
+                    "base": 5,
+                    "altura": 8
+                },
+                {
+                    "base": 3,
+                    "altura": 6
+                },
+                {
+                    "base": 7,
+                    "altura": 4
+                },
+                {
+                    "base": 10,
+                    "altura": 5
+                },
+                {
+                    "base": 6,
+                    "altura": 9
+                }
+            ];
+    
+
+            function area(base, altura) {
+                console.log((base * altura) / 2);
+            }
+
+            triangulos.forEach((e) => {
+               area(e.base, e.altura);
+            });
+    
+
+        </script>
+    </body>
+    </html>
+    
